@@ -1,9 +1,104 @@
 # Drone Robotics Inspection Suite Source Data Tables
 
-Mapped source projects: 0
+Mapped source projects: 5
 
-Detected source tables: 0
+Detected source tables: 96
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
-
+| AIAdCopyCreativeGenerator | ab_tests | SQL | 9 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | ad_platform_uploads | SQL | 6 | backend/src/routes/ai.js |
+| AIAdCopyCreativeGenerator | brand_profiles | SQL | 11 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | brand_voice_profiles | SQL | 10 | backend/src/routes/customViews.js |
+| AIAdCopyCreativeGenerator | campaigns | SQL | 11 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | competitor_monitors | SQL | 6 | backend/src/routes/ai.js |
+| AIAdCopyCreativeGenerator | copy_scores | SQL | 10 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_ai_audience_sentiment_modeling_resonance.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_ai_competitor_copy_analysis_extracting.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_ai_multilingual_variant_generation.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_ai_visual_image_pairing_recommendation.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_direct_ad_platform_upload_integration.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_industry_benchmark_performance_comparisons.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_multi_platform_templates_meta_google.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_notifications_webhooks_subsystem.js |
+| AIAdCopyCreativeGenerator | gap_features | SQL | 6 | backend/src/routes/gap_reporting_analytics_dashboard.js |
+| AIAdCopyCreativeGenerator | generated_content | SQL | 12 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | share_tokens | SQL | 7 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | user_settings | SQL | 7 | backend/src/db.js |
+| AIAdCopyCreativeGenerator | users | SQL | 5 | backend/src/db.js |
+| AIAssemblyLineVisualInspector | alerts | SQL | 10 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | audit_trail | SQL | 8 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | batches | SQL | 12 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | camera_feeds | SQL | 9 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | defect_library | SQL | 10 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | downtime_events | SQL | 10 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_ai_defect_detection_computer_vision.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_ai_quality_prediction_batch_pass.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_ai_root_cause_analysis_defect.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_ai_scrap_rate_optimization.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_ai_streaming_sensor_anomaly_detection.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_mes_parsec_plex_wonderware_integration.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_operator_skill_levelling_certification_ladder.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_outbound_webhooks.js |
+| AIAssemblyLineVisualInspector | gap_features | SQL | 6 | backend/src/routes/gap_real_time_spc_streaming_alerts.js |
+| AIAssemblyLineVisualInspector | inspections | SQL | 14 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | inventory | SQL | 13 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | maintenance_schedules | SQL | 15 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | operators | SQL | 9 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | production_lines | SQL | 8 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | products | SQL | 8 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | quality_goals | SQL | 13 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | reports | SQL | 9 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | shifts | SQL | 9 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | training_records | SQL | 15 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | users | SQL | 6 | backend/src/seed.js |
+| AIAssemblyLineVisualInspector | work_orders | SQL | 17 | backend/src/seed.js |
+| AIAutonomousDroneOperations | ai_results | SQL | 10 | backend/routes/aiResults.js |
+| AIAutonomousDroneOperations | drone_command_queue | SQL | 9 | backend/routes/extensions.js |
+| AIAutonomousDroneOperations | drone_vendor_links | SQL | 7 | backend/routes/extensions.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_ai_flight_telemetry_anomaly_detection.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_ai_geofence_optimization_learning.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_ai_mission_planning_generator_objectives.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_ai_multi_drone_swarm_coordination.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_ai_real_time_obstacle_avoidance.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_captured_imagery_analysis_pipeline.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_live_drone_platform_integration_dji.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_notifications_subsystem.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_outbound_webhooks.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_real_time_c2_command_control.js |
+| AIAutonomousDroneOperations | gap_features | SQL | 6 | backend/routes/gap_weather_integration_wind_rain_forecasts.js |
+| AIAutonomousDroneOperations | image_analysis_jobs | SQL | 9 | backend/routes/extensions.js |
+| AIAutonomousDroneOperations | mission_logs | SQL | 10 | backend/routes/missionLogs.js |
+| AIAutonomousDroneOperations | noaa_weather_cache | SQL | 5 | backend/routes/extensions.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapCriticalNoAiForDamageAssessmentFromPhotos.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoAuditLogging.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoCustomerSelfServicePortal.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoFraudDetectionOnInspectionData.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoInsuranceClaimIntegrationDirectInsurerApi.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoInsuranceEstimateGenerationAi.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoIntegrationWithOemRecallDatabasesOnlyManual.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoPartsSupplierIntegration.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoPredictiveMaintenanceMl.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoThirdPartyRepairShopNetwork.js |
+| AIVehicleInspectionCertification | gap_features | SQL | 6 | server/routes/gapNoWebhooksNotificationsForRecallEvents.js |
+| AIVisualQAInspector | ai_reports | Sequelize | 10 | backend/models/index.js |
+| AIVisualQAInspector | defect_classifications | Sequelize | 9 | backend/models/index.js |
+| AIVisualQAInspector | defects | Sequelize | 9 | backend/models/index.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapLimitedIntegrationWithProductionLineCamerasOnlyGenericIntegrations.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoAutomatedRootCauseCorrelationMl.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoComputerVisionForDirectDefectDetectionFrom.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoErpIntegrationForReworkScrapTracking.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoNotificationsSubsystem.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoPredictiveQualityScoringForUpcomingProductionRuns.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoRealTimeSpcStatisticalProcessControlVisualization.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoSupplierQualityManagementModule.js |
+| AIVisualQAInspector | gap_features | SQL | 6 | backend/routes/gapNoWebhooksForMesEventsBeyondTheAlert.js |
+| AIVisualQAInspector | inspection_reports | Sequelize | 3 | backend/models/index.js |
+| AIVisualQAInspector | inspections | Sequelize | 7 | backend/models/index.js |
+| AIVisualQAInspector | packaging_optimizations | Sequelize | 13 | backend/models/index.js |
+| AIVisualQAInspector | products | Sequelize | 6 | backend/models/index.js |
+| AIVisualQAInspector | quality_inspections | Sequelize | 11 | backend/models/index.js |
+| AIVisualQAInspector | root_cause_analyses | Sequelize | 10 | backend/models/index.js |
+| AIVisualQAInspector | severity_scores | Sequelize | 9 | backend/models/index.js |
+| AIVisualQAInspector | trend_analyses | Sequelize | 10 | backend/models/index.js |
+| AIVisualQAInspector | users | Sequelize | 4 | backend/models/index.js |
